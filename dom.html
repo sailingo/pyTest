@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Title</title>
+ </head>
+ <body>
+ <div class="div1">
+     <p name="littleP" class="p1">hello p</p>
+     <div class="div2">hello div
+         <div>div</div>
+         <a href="">click</a>
+     </div>
+ </div>
+ </body>
+ <script>
+     var ele=document.getElementsByName("littleP")[0];
+     console.log(ele)
+     console.log('------------')
+     var ele2 = ele.nextElementSibling;
+     console.log(ele2.innerHTML);
+     console.log('-----------')
+     console.log(ele2.innerText)
+ 
+     // var ele =document.getElementsByClassName("p1")[0];
+     // var p_ele = ele.parentNode;
+     // console.log(p_ele)
+     // console.log(p_ele.nodeName);
+     // console.log('-------------');
+     // var p_ele2 =ele.nextSibling;
+     // console.log(p_ele2.nodeName);
+     // console.log('-------------');
+     // var p_ele3 = ele.nextElementSibling;
+     // console.log(p_ele3.nodeName);
+     // console.log(p_ele3.innerHTML);
+     // console.log('-------------');
+     // console.log(p_ele.nodeType)
+     // console.log(p_ele.nodeValue)
+     // console.log(p_ele.node)
+ 
+ 
+     // var ele =document.getElementsByClassName("div1")[0];
+     // console.log(ele.children[1].children)
+ </script>
+ </html>
