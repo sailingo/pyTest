@@ -5,39 +5,68 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 average_unit_cost	CBG_tender_price_cal_cn.py	/^average_unit_cost = float(input("请输入我们的平均成本价格:"))$/;"	v
+calList	strCal.py	/^calList = calSplit(myCal)$/;"	v
+calSplit	funCo1.py	/^def calSplit(calStr):$/;"	f
+calSplit	strCal.py	/^def calSplit(calStr):$/;"	f
+cal_the_r_formula	funCo1.py	/^def cal_the_r_formula(historyDic, r_formula):$/;"	f
 copy	CBG_tender_price_cal_cn.py	/^import copy$/;"	i
 copy	CBG_tender_price_cal_en.py	/^import copy$/;"	i
+debug_config	funCo1.py	/^debug_config = 0$/;"	v
+debug_config	strCal.py	/^debug_config = 1$/;"	v
+debug_print	funCo1.py	/^def debug_print(debugStr , debug_level = 0):$/;"	f
+debug_print	strCal.py	/^def debug_print(debugStr , debug_level = 0):$/;"	f
 enlarge	write.py	/^def enlarge(n):$/;"	f
-funAdd	funCo1.py	/^def funAdd():$/;"	f
+funAdd	Trash/funCo1.py	/^def funAdd():$/;"	f
 funCo1	test.py	/^import funCo1$/;"	i
+fun_name	funCo1.py	/^def fun_name(status=0):$/;"	f
 func0	write.py	/^def func0(a):$/;"	f
 func1	write.py	/^def func1(x):$/;"	f
 func2	write.py	/^def func2():$/;"	f
+function	command.py	/^def function():$/;"	f
+getHistoryDic	funCo1.py	/^def getHistoryDic(dic):$/;"	f
 get_list	write.py	/^def get_list(x, y):$/;"	f
 get_list2	write.py	/^def get_list2(*var):$/;"	f
+i	rep.py	/^i = 0$/;"	v
 intermediate_price	CBG_tender_price_cal_cn.py	/^intermediate_price = float(input("请输入中级人员的单价:"))$/;"	v
 intermediate_price	CBG_tender_price_cal_en.py	/^intermediate_price = float(input("please input intermediate staff pries:"))$/;"	v
 intermediate_staff	CBG_tender_price_cal_cn.py	/^intermediate_staff = float(months * 0.5)$/;"	v
 intermediate_staff	CBG_tender_price_cal_en.py	/^intermediate_staff = float(months * 0.5)$/;"	v
+isEnd	command.py	/^isEnd = False$/;"	v
+is_number	funCo1.py	/^def is_number(s):$/;"	f
+is_number	strCal.py	/^def is_number(s):$/;"	f
 junior_price	CBG_tender_price_cal_cn.py	/^junior_price = float(input("请输入初级人员的单价:"))$/;"	v
 junior_price	CBG_tender_price_cal_en.py	/^junior_price = float(input("Please input your junior staff prices:"))$/;"	v
 junior_staff	CBG_tender_price_cal_cn.py	/^junior_staff = float(months * 0.3)$/;"	v
 junior_staff	CBG_tender_price_cal_en.py	/^junior_staff = float(months * 0.3)$/;"	v
-list	rep.py	/^import list$/;"	i
-listFun	funCo1.py	/^def listFun():$/;"	f
+keyboard	command.py	/^from pynput import keyboard$/;"	i
+keyboard_on_press	command.py	/^def keyboard_on_press(key):$/;"	f
+listFun	Trash/funCo1.py	/^def listFun():$/;"	f
+main	command.py	/^def main():$/;"	f
 months	CBG_tender_price_cal_cn.py	/^months  = float(input("请输入总人月数:"))$/;"	v
 months	CBG_tender_price_cal_en.py	/^months  = float(input("please input your total person months:"))$/;"	v
+myCal	strCal.py	/^myCal = input("please input your r_cal:")$/;"	v
+myCalculator	Trash/funCo1.py	/^def myCalculator():$/;"	f
 myCalculator	funCo1.py	/^def myCalculator():$/;"	f
+myprint	funCo1.py	/^def myprint(debugStr , debug_level = 0):$/;"	f
+printProgressBar	Trash/funCo1.py	/^def printProgressBar():    #打印进度条$/;"	f
 printProgressBar	funCo1.py	/^def printProgressBar():    #打印进度条$/;"	f
+re	strCal.py	/^import re$/;"	i
+replace_calListIndex_to_calResult	funCo1.py	/^def replace_calListIndex_to_calResult(callist, dic):$/;"	f
+replace_calListIndex_to_calResult	strCal.py	/^def replace_calListIndex_to_calResult(callist):$/;"	f
 req	reptile.py	/^    req = requests.get(url=target)$/;"	v
 requests	reptile.py	/^import requests$/;"	i
 senior_price	CBG_tender_price_cal_cn.py	/^senior_price = float(input("请输入高级人员的单价:"))$/;"	v
 senior_price	CBG_tender_price_cal_en.py	/^senior_price = float(input("Please input the senior staff prices:"))$/;"	v
 senior_staff	CBG_tender_price_cal_cn.py	/^senior_staff = float(months * 0.2)$/;"	v
 senior_staff	CBG_tender_price_cal_en.py	/^senior_staff = float(months * 0.2)$/;"	v
-showHistory	funCo1.py	/^def showHistory(list):$/;"	f
+showHistory	Trash/funCo1.py	/^def showHistory(list):$/;"	f
+showHistory	funCo1.py	/^def showHistory(dic):$/;"	f
+sleep	Trash/funCo1.py	/^    from time import sleep$/;"	i
 sleep	funCo1.py	/^    from time import sleep$/;"	i
+start_key_listen	command.py	/^def start_key_listen():$/;"	f
 target	reptile.py	/^    target = 'http:\/\/gitbook.cn'$/;"	v
+threading	command.py	/^import threading$/;"	i
+time	command.py	/^import time$/;"	i
 total_average_cost_price	CBG_tender_price_cal_cn.py	/^total_average_cost_price = float(average_unit_cost * months)$/;"	v
 total_intermediate_price	CBG_tender_price_cal_cn.py	/^total_intermediate_price = float(intermediate_price * intermediate_staff)$/;"	v
 total_intermediate_price	CBG_tender_price_cal_en.py	/^total_intermediate_price = float(intermediate_price * intermediate_staff)$/;"	v
@@ -47,6 +76,8 @@ total_price	CBG_tender_price_cal_cn.py	/^total_price = total_junior_price + tota
 total_price	CBG_tender_price_cal_en.py	/^total_price = total_junior_price + total_intermediate_price + total_senior_price$/;"	v
 total_senior_price	CBG_tender_price_cal_cn.py	/^total_senior_price = float(senior_price * senior_staff )$/;"	v
 total_senior_price	CBG_tender_price_cal_en.py	/^total_senior_price = float(senior_price * senior_staff )$/;"	v
+traceback	funCo1.py	/^import traceback$/;"	i
+trange	Trash/funCo1.py	/^    from tqdm import trange$/;"	i
 trange	funCo1.py	/^    from tqdm import trange$/;"	i
 userName	t.py	/^userName = input("Please input your name:")$/;"	v
 userPassword	t.py	/^    userPassword = input("Please input your password:")$/;"	v
