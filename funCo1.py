@@ -1,5 +1,6 @@
 import traceback
 debug_config = 0
+language_config = 1
 def debug_print(debugStr , debug_level = 0):
     if debug_config == 0:
         return
@@ -32,11 +33,20 @@ def printProgressBar():    #打印进度条
 # my calculator
 def myCalculator():
     status = 'c'
-    tips = "\033[33m * type 'c' to continute Calculator \n" \
-           + " * type 'h' to show the history\n" \
-           + " * type 'r' to calulator the history result\n"\
-           + " * type 'q' to quit\n\033[0m" \
-           + "Please input your choose# "
+    if (language_config == 0):
+        tips = "\033[33m * type 'c' to continute Calculator \n" \
+               + " * type 'h' to show the history\n" \
+               + " * type 'r' to calulator the history result\n"\
+               + " * type 'q' to quit\n\033[0m" \
+               + "Please input your choose# "
+    #elif (language_config == 1):
+    else:
+        tips = "\033[33m * 按 'c' 继续执行计算 \n" \
+               + " * 按 'h' 显示历史记录\n" \
+               + " * 按 'r' 根据历史结果索引计算\n"\
+               + " * 按 'q' 退出\n\033[0m" \
+               + "请输入你的选择# "
+
     #history = []
     history = {}
     count = 0
@@ -46,11 +56,17 @@ def myCalculator():
             showHistory(history)
             status = input(tips)
         elif(status == 'c'):
-            formula = input("please input your formula:")
+            if (language_config == 0):
+                formula = input("please input your formula:")
+            else:
+                formula = input("请输入你的计算公式:")
             try:
                 result = eval(formula)
             except:
-                print("\033[41m【Wrong！】Please make sure you have input the right type.\033[0m")
+                if (language_config == 0):
+                    print("\033[41m【Wrong！】Please make sure you have input the right type.\033[0m")
+                else:
+                    print("\033[41m【错误！】请确认你输入正确的公式.\033[0m")
             else:
                 #content =  formula + " = " + str(result)
                 #history.append(content)
