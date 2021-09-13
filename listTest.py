@@ -9,14 +9,16 @@
 # Edit History: 
 #   2021-07-02    File created.
 #========================================================================
-#1,1,2,3,5,8,13,21,34,55
 
-import keyboard
+list = ['google', 'runoob', '1998', 3000, 4000]
+print("The origin list: ", list)
+del list[2]
+print("After delete the index3 element: ", list)
+list = [1,3,2,5,7,9,8]
+print(list)
+print("len(list):",len(list))
+print("max(list):", max(list))
+print("min(list):", min(list))
+list.clear()
+prin("list:",list)
 
-def foo():
-    a, b = 0, 1
-    while b < 100:
-        a, b = b, a+b
-        print ("print:",a)
-
-foo()
