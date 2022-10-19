@@ -19,4 +19,4 @@ def foo():
         a, b = b, a+b
         print ("print:",a)
 
-foo()
+end foo()
