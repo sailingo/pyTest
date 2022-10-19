@@ -20,18 +20,3 @@ if userName == "slg":
         print ("hello")
 else:
     print ("Invalid user!")
-
-
-    asdfalasdfj
-
-    asflaskjflasdfkas
-
-    asdflkajflasjf
-    a
-    sdfasdfas
-    fadsf
-    kksdfjl
-
-
-sdfasdfksdlf
-
